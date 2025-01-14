@@ -166,7 +166,7 @@ if selected == "Regression: Car Price Prediction Model":
     # import image
     im, ge, re= st.columns([1, 3, 1])
     with ge:
-        st.image("C:/Users/monstr/Desktop/Deployment/Streamlit/Multipages/dalle.jpg", use_container_width =True)
+        st.image("dalle.jpg", use_container_width =True)
         st.markdown(
             """
             <style>
@@ -456,7 +456,7 @@ if selected == "Regression: CO2 Comissions Prediction Model":
     # import image
     ase, esa, res= st.columns([1, 3, 1])
     with esa:
-        st.image("C:/Users/monstr/Desktop/Deployment/Streamlit/Multipages/dalle2.jpg", use_container_width =True)
+        st.image("dalle2.jpg", use_container_width =True)
         st.markdown(
             """
             <style>
@@ -680,7 +680,7 @@ if selected == "Classification: Heart Disease Prediction Model":
     # import image
     xxx, zzz, ccc= st.columns([1, 3, 1])
     with zzz:
-        st.image("C:/Users/monstr/Desktop/Deployment/Streamlit/Multipages/dalle3.jpg", use_container_width =True)
+        st.image("dalle3.jpg", use_container_width =True)
         st.markdown(
             """
             <style>
