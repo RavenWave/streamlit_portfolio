@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 selected = option_menu(
         menu_title="Machine Learning Models", #required
         options=["Regression: Car Price Prediction Model", 
-                 "Regression: CO2 Comissions Prediction Model", 
+                 "Regression: CO2 Emissions Prediction Model", 
                  "Classification: Heart Disease Prediction Model"], #required
         icons=["1-circle", "2-circle", "3-circle"], #optional (isimlerin yanına ikon eklemek için)
         menu_icon="globe", # optional
