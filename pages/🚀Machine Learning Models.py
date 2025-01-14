@@ -1309,7 +1309,7 @@ st.markdown(
     .linkedin-icon {
         font-size: 20px;
         color: #0077B5;
-        text-decoration: none;
+        text-decoration: none !important;
         display: flex;
         align-items: center;
         margin-right: 20px;
