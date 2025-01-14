@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 # Horizontal Menu
 selected = option_menu(
         menu_title="Machine Learning Models", #required
-        options=["Regression: Car Price Prediction Model", 
+        options=["Regression: Car Purchase Amount Prediction Model", 
                  "Regression: CO2 Emissions Prediction Model", 
                  "Classification: Heart Disease Prediction Model"], #required
         icons=["1-circle", "2-circle", "3-circle"], #optional (isimlerin yanına ikon eklemek için)
@@ -141,11 +141,11 @@ button_style = """
 
 
 
-# ----------------- Page 1: Car Price Prediction Model-----------------
-if selected == "Regression: Car Price Prediction Model": 
+# ----------------- Page 1: Car Purchase Amount Prediction Model-----------------
+if selected == "Regression: Car Purchase Amount Prediction Model": 
 
     # Title 1
-    st.markdown(f"<div class='title'>Welcome to Car Price Prediction Model</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='title'>Welcome to Car Purchase Amount Prediction Model</div>", unsafe_allow_html=True)
 
     # Sub-title
     st.markdown("<div class='subtitle'>A Linear Regression Model</div>", unsafe_allow_html=True)
