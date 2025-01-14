@@ -1340,7 +1340,7 @@ st.sidebar.markdown(
 # LinkedIn icon and link
 st.sidebar.markdown(
     """
-    <a href="https://www.linkedin.com/in/cakiiremre/" target="_blank" class="linkedin-icon">
+    <a href="https://github.com/RavenWave" target="_blank" class="linkedin-icon">
         <i class="material-icons">link</i> 
         GitHub Profile
     </a>
