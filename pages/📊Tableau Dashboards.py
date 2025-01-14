@@ -165,7 +165,7 @@ ff, ss , jj = st.columns([10, 0.5, 10])
 
 with ff:
 
-    st.image("dashboard-2.jpg", use_container_width =True)
+    st.image("pages/dashboard-2.jpg", use_container_width =True)
     st.markdown(
         """
         <style>
