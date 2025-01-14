@@ -431,11 +431,11 @@ if selected == "Regression: Car Price Prediction Model":
 
 
 
-# ----------------- Page 2: CO2 Comissions Prediction Model -----------------
-if selected == "Regression: CO2 Comissions Prediction Model":
+# ----------------- Page 2: CO2 Emissions Prediction Model -----------------
+if selected == "Regression: CO2 Emissions Prediction Model":
     
     # Title 1
-    st.markdown(f"<div class='title'>Welcome to CO2 Comissions Prediction Model</div>", unsafe_allow_html=True)
+    st.markdown(f"<div class='title'>Welcome to CO2 Emissions Prediction Model</div>", unsafe_allow_html=True)
 
     # Sub-title
     st.markdown("<div class='subtitle'>A Linear Regression Model</div>", unsafe_allow_html=True)
